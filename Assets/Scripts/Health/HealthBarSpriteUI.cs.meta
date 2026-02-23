@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 5519fe1c08ac3a04e8dd334b40fe4970
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - playerHealth: {instanceID: 0}
+  - barImage: {instanceID: 0}
+  - hp0: {fileID: 21300000, guid: c164e937bed8e2f4ea01ac3a20bc30e3, type: 3}
+  - hp1: {fileID: 21300000, guid: c164e937bed8e2f4ea01ac3a20bc30e3, type: 3}
+  - hp2: {fileID: 21300000, guid: 49b0862ceb151d84bae5862c9f736dd3, type: 3}
+  - hp3: {fileID: 21300000, guid: cc4b60fbee10b964e91c99c5335ff0bc, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
