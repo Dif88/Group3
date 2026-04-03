@@ -32250,7 +32250,7 @@ GameObject:
   - component: {fileID: 1222666814}
   - component: {fileID: 1222666817}
   - component: {fileID: 1222666816}
-  - component: {fileID: 1222666815}
+  - component: {fileID: 1222666818}
   m_Layer: 5
   m_Name: HealthBar
   m_TagString: Untagged
@@ -32277,24 +32277,6 @@ RectTransform:
   m_AnchoredPosition: {x: 80, y: -40}
   m_SizeDelta: {x: 400, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1222666815
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1222666813}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5519fe1c08ac3a04e8dd334b40fe4970, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::HealthBarSpriteUI
-  playerHealth: {fileID: 0}
-  barImage: {fileID: 0}
-  hp0: {fileID: 0}
-  hp1: {fileID: 21300000, guid: c164e937bed8e2f4ea01ac3a20bc30e3, type: 3}
-  hp2: {fileID: 21300000, guid: 49b0862ceb151d84bae5862c9f736dd3, type: 3}
-  hp3: {fileID: 21300000, guid: cc4b60fbee10b964e91c99c5335ff0bc, type: 3}
 --- !u!114 &1222666816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32333,6 +32315,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1222666813}
   m_CullTransparentMesh: 1
+--- !u!114 &1222666818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1222666813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5519fe1c08ac3a04e8dd334b40fe4970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HealthBarSpriteUI
+  playerHealth: {fileID: 1847122762}
+  barImage: {fileID: 0}
+  hp0: {fileID: 21300000, guid: c164e937bed8e2f4ea01ac3a20bc30e3, type: 3}
+  hp1: {fileID: 21300000, guid: c164e937bed8e2f4ea01ac3a20bc30e3, type: 3}
+  hp2: {fileID: 21300000, guid: 49b0862ceb151d84bae5862c9f736dd3, type: 3}
+  hp3: {fileID: 21300000, guid: cc4b60fbee10b964e91c99c5335ff0bc, type: 3}
 --- !u!1 &1222728311
 GameObject:
   m_ObjectHideFlags: 0
@@ -43234,6 +43234,7 @@ GameObject:
   - component: {fileID: 1686194465}
   - component: {fileID: 1686194464}
   - component: {fileID: 1686194463}
+  - component: {fileID: 1686194470}
   m_Layer: 6
   m_Name: DebtCollector
   m_TagString: MainCamera
@@ -43391,6 +43392,29 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &1686194470
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1686194462}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1697050684
 GameObject:
   m_ObjectHideFlags: 0
@@ -47465,6 +47489,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1846416951}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1847122760 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8047161636021232021, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
+  m_PrefabInstance: {fileID: 2036471463}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1847122762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1847122760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6f317539d280354bb0fd90cf0e1065b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
+  maxHealth: 3
 --- !u!1 &1850934225
 GameObject:
   m_ObjectHideFlags: 0
@@ -51747,7 +51789,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 974238578668270715, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
       propertyPath: MoveSpeed
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 974238578668270715, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
       propertyPath: GroundedOffset
@@ -51849,10 +51891,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: NestedParentArmature_Unpack
       objectReference: {fileID: 0}
+    - target: {fileID: 8047161636021232021, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 7888303496483045073, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8047161636021232021, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1847122762}
   m_SourcePrefab: {fileID: 100100000, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
 --- !u!1 &2041970751
 GameObject:

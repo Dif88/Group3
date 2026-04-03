@@ -6,7 +6,8 @@ public class DamageOnTouch : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        var health = collision.collider.GetComponent<PlayerHealth>();
+        // By adding "InParent", it will search up your player's hierarchy until it finds the health script!
+        var health = collision.collider.GetComponentInParent<PlayerHealth>();
         if (health != null)
         {
             health.TakeDamage(damage);
@@ -15,7 +16,8 @@ public class DamageOnTouch : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        var health = other.GetComponent<PlayerHealth>();
+        // Same here!
+        var health = other.GetComponentInParent<PlayerHealth>();
         if (health != null)
         {
             health.TakeDamage(damage);
