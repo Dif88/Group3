@@ -6,8 +6,10 @@ public class DebtCollectorChase : MonoBehaviour
     public Transform target;          // drag Player here OR auto-find by tag
     public float moveSpeed = 4f;
     public float stopDistance = 1.5f;
+    public float detectionRadius = 20f;  // only chase when player is within this radius
 
     private Rigidbody rb;
+    private bool hasDetectedPlayer = false;  // once detected, always chase
 
     void Awake()
     {
@@ -37,6 +39,17 @@ public class DebtCollectorChase : MonoBehaviour
         toTarget.y = 0f;
 
         float dist = toTarget.magnitude;
+        
+        // Detect player if within detection radius
+        if (dist <= detectionRadius)
+        {
+            hasDetectedPlayer = true;
+        }
+        
+        // Only chase if player has been detected
+        if (!hasDetectedPlayer) return;
+        
+        // Stop moving if close enough
         if (dist <= stopDistance) return;
 
         Vector3 dir = toTarget.normalized;
