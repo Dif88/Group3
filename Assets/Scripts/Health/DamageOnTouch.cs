@@ -32,6 +32,7 @@ public class DamageOnTouch : MonoBehaviour
             if (health != null)
             {
                 health.TakeDamage(damage);
+                Debug.Log("Ouch! You took damage!");
                 
                 // Set the timer so we can't take damage again for 0.5 seconds
                 nextDamageTime = Time.time + damageCooldown;
