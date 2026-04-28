@@ -3,62 +3,53 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 public class DebtCollectorChase : MonoBehaviour
 {
-    public Transform target;          // drag Player here OR auto-find by tag
+    public Transform target;
     public float moveSpeed = 4f;
     public float stopDistance = 1.5f;
-    public float detectionRadius = 20f;  // only chase when player is within this radius
+    public float detectionRadius = 20f;
 
     private Rigidbody rb;
-    private bool hasDetectedPlayer = false;  // once detected, always chase
+    private Animator anim; // 1. Add this
+    private bool hasDetectedPlayer = false;
 
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
-
-        // Optional: keep enemy from tipping over
         rb.constraints = RigidbodyConstraints.FreezeRotation;
+        
+        // 2. Grab the Animator from the child (the skin)
+        anim = GetComponentInChildren<Animator>(); 
     }
 
-    void Start()
-    {
-        if (target == null)
-        {
-            GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
-            if (playerObj != null) target = playerObj.transform;
-        }
-    }
+    // ... (Keep your Start function the same)
 
     void FixedUpdate()
     {
         if (target == null) return;
 
         Vector3 toTarget = target.position - transform.position;
-
-        // Ignore vertical difference (prevents weird flying/chasing up/down slopes)
         toTarget.y = 0f;
-
         float dist = toTarget.magnitude;
-        
-        // Detect player if within detection radius
-        if (dist <= detectionRadius)
-        {
-            hasDetectedPlayer = true;
-        }
-        
-        // Only chase if player has been detected
+
+        if (dist <= detectionRadius) hasDetectedPlayer = true;
         if (!hasDetectedPlayer) return;
-        
-        // Stop moving if close enough
-        if (dist <= stopDistance) return;
+
+        // 3. Logic for Animation
+        if (dist <= stopDistance) 
+        {
+            if (anim != null) anim.SetFloat("Speed", 0f); // Stop walking
+            return;
+        }
 
         Vector3 dir = toTarget.normalized;
         Vector3 nextPos = rb.position + dir * moveSpeed * Time.fixedDeltaTime;
-
         rb.MovePosition(nextPos);
 
-        // Optional: face the player
         if (dir.sqrMagnitude > 0.001f)
+        {
             transform.forward = dir;
+            if (anim != null) anim.SetFloat("Speed", moveSpeed); // 4. Start walking
+        }
     }
 }
