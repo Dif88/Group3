@@ -248,6 +248,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &3240007
 GameObject:
   m_ObjectHideFlags: 0
@@ -432,6 +434,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &9253780
 GameObject:
   m_ObjectHideFlags: 0
@@ -707,6 +711,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1001 &10625077
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1536,6 +1542,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &17288586
 GameObject:
   m_ObjectHideFlags: 0
@@ -1889,6 +1897,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &19995089
 GameObject:
   m_ObjectHideFlags: 0
@@ -2239,6 +2249,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &27246260 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1801807646703848077, guid: 5151591354fd80f448e91914496d97d1, type: 3}
@@ -2282,6 +2294,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1001 &27659043
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2581,6 +2595,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &40243474 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1801807646703848077, guid: 5151591354fd80f448e91914496d97d1, type: 3}
@@ -2624,6 +2640,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1001 &40843665
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2716,6 +2734,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &45919019
 GameObject:
   m_ObjectHideFlags: 0
@@ -2845,6 +2865,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &52614766 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8925445254082643600, guid: 0af9c9176232f40e899309753e820387, type: 3}
@@ -2862,6 +2884,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &53973467
 GameObject:
   m_ObjectHideFlags: 0
@@ -3173,6 +3197,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &58973447
 GameObject:
   m_ObjectHideFlags: 0
@@ -3515,6 +3541,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &69377151
 GameObject:
   m_ObjectHideFlags: 0
@@ -3831,6 +3859,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &80352090
 GameObject:
   m_ObjectHideFlags: 0
@@ -3986,6 +4016,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &81872287
 GameObject:
   m_ObjectHideFlags: 0
@@ -4701,6 +4733,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &98652321
 GameObject:
   m_ObjectHideFlags: 0
@@ -5054,6 +5088,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &109033213 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 951800262483011360, guid: 0af9c9176232f40e899309753e820387, type: 3}
@@ -5071,6 +5107,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &115087622
 GameObject:
   m_ObjectHideFlags: 0
@@ -6894,6 +6932,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &150807131 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1801807646703848077, guid: 5151591354fd80f448e91914496d97d1, type: 3}
@@ -6937,6 +6977,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &151786601 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1801807646703848077, guid: 5151591354fd80f448e91914496d97d1, type: 3}
@@ -6980,6 +7022,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &152901189
 GameObject:
   m_ObjectHideFlags: 0
@@ -7408,6 +7452,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &162249756
 GameObject:
   m_ObjectHideFlags: 0
@@ -7761,6 +7807,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!114 &173949792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8844,6 +8892,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &197336980
 GameObject:
   m_ObjectHideFlags: 0
@@ -9447,6 +9497,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &206478486 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1801807646703848077, guid: 5151591354fd80f448e91914496d97d1, type: 3}
@@ -9490,6 +9542,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1001 &206486186
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9608,6 +9662,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &207288085
 GameObject:
   m_ObjectHideFlags: 0
@@ -10521,6 +10577,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &218310480
 GameObject:
   m_ObjectHideFlags: 0
@@ -10837,6 +10895,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &222040304
 GameObject:
   m_ObjectHideFlags: 0
@@ -11957,6 +12017,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &245050343
 GameObject:
   m_ObjectHideFlags: 0
@@ -12609,6 +12671,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &259000878
 GameObject:
   m_ObjectHideFlags: 0
@@ -12764,6 +12828,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &260703929 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2569928322432802381, guid: 0af9c9176232f40e899309753e820387, type: 3}
@@ -12781,6 +12847,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &260748840
 GameObject:
   m_ObjectHideFlags: 0
@@ -13246,6 +13314,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &274653063
 GameObject:
   m_ObjectHideFlags: 0
@@ -13823,6 +13893,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1001 &282348075
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13941,6 +14013,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &287380072
 GameObject:
   m_ObjectHideFlags: 0
@@ -14880,6 +14954,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &313080170
 GameObject:
   m_ObjectHideFlags: 0
@@ -15316,6 +15392,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &322639623 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 46755080678380024, guid: 0af9c9176232f40e899309753e820387, type: 3}
@@ -15333,6 +15411,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &325963997
 GameObject:
   m_ObjectHideFlags: 0
@@ -15798,6 +15878,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &328501064
 GameObject:
   m_ObjectHideFlags: 0
@@ -16039,6 +16121,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1001 &339080718
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17278,6 +17362,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &370070415 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6526581785255248788, guid: 0af9c9176232f40e899309753e820387, type: 3}
@@ -17295,6 +17381,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1001 &371480322
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17387,6 +17475,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &377878020
 GameObject:
   m_ObjectHideFlags: 0
@@ -23110,6 +23200,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &386133108
 GameObject:
   m_ObjectHideFlags: 0
@@ -23377,6 +23469,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &394234792
 GameObject:
   m_ObjectHideFlags: 0
@@ -24300,6 +24394,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &421236970
 GameObject:
   m_ObjectHideFlags: 0
@@ -24429,6 +24525,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &423789331
 GameObject:
   m_ObjectHideFlags: 0
@@ -24745,6 +24843,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &430464804
 GameObject:
   m_ObjectHideFlags: 0
@@ -25452,6 +25552,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &442866275
 GameObject:
   m_ObjectHideFlags: 0
@@ -25831,6 +25933,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &452483547
 GameObject:
   m_ObjectHideFlags: 0
@@ -26098,6 +26202,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!114 &457243324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26144,6 +26250,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &462704138 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 893115660870159452, guid: 0af9c9176232f40e899309753e820387, type: 3}
@@ -26161,6 +26269,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &464010174
 GameObject:
   m_ObjectHideFlags: 0
@@ -26738,6 +26848,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &471128040
 GameObject:
   m_ObjectHideFlags: 0
@@ -26867,6 +26979,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &472112111
 GameObject:
   m_ObjectHideFlags: 0
@@ -28415,6 +28529,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &491287042 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1801807646703848077, guid: 5151591354fd80f448e91914496d97d1, type: 3}
@@ -28458,6 +28574,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &491607137
 GameObject:
   m_ObjectHideFlags: 0
@@ -29687,6 +29805,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &520158432
 GameObject:
   m_ObjectHideFlags: 0
@@ -30488,6 +30608,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!114 &533352860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31169,6 +31291,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &547874781 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4327067248400457018, guid: 0af9c9176232f40e899309753e820387, type: 3}
@@ -31186,6 +31310,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &548233988
 GameObject:
   m_ObjectHideFlags: 0
@@ -31736,6 +31862,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &558662948
 GameObject:
   m_ObjectHideFlags: 0
@@ -32575,6 +32703,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!114 &578208990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32704,6 +32834,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &582711350
 GameObject:
   m_ObjectHideFlags: 0
@@ -32859,6 +32991,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &585266967
 GameObject:
   m_ObjectHideFlags: 0
@@ -33238,6 +33372,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &591102092 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8909289103630861549, guid: 0af9c9176232f40e899309753e820387, type: 3}
@@ -33255,6 +33391,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &591306258
 GameObject:
   m_ObjectHideFlags: 0
@@ -33858,6 +33996,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1001 &599854201
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34312,6 +34452,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &617263600
 GameObject:
   m_ObjectHideFlags: 0
@@ -34757,6 +34899,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &620368519
 GameObject:
   m_ObjectHideFlags: 0
@@ -35024,6 +35168,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &625477262
 GameObject:
   m_ObjectHideFlags: 0
@@ -35490,6 +35636,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &632233003
 GameObject:
   m_ObjectHideFlags: 0
@@ -35843,6 +35991,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &636016638
 GameObject:
   m_ObjectHideFlags: 0
@@ -36641,6 +36791,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!114 &658239993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36799,6 +36951,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &660199603
 GameObject:
   m_ObjectHideFlags: 0
@@ -37227,6 +37381,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &674676635 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2178461499300746048, guid: 0af9c9176232f40e899309753e820387, type: 3}
@@ -37244,6 +37400,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &675785936
 GameObject:
   m_ObjectHideFlags: 0
@@ -37623,6 +37781,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &681362123 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1801807646703848077, guid: 5151591354fd80f448e91914496d97d1, type: 3}
@@ -37666,6 +37826,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &684184267 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1801807646703848077, guid: 5151591354fd80f448e91914496d97d1, type: 3}
@@ -37709,6 +37871,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &686021850
 GameObject:
   m_ObjectHideFlags: 0
@@ -38051,6 +38215,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &690458452
 GameObject:
   m_ObjectHideFlags: 0
@@ -38292,6 +38458,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &695416463 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1840880664113887729, guid: 0af9c9176232f40e899309753e820387, type: 3}
@@ -38309,6 +38477,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &697913235 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5575745479806334706, guid: 0af9c9176232f40e899309753e820387, type: 3}
@@ -38326,6 +38496,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &697936882
 GameObject:
   m_ObjectHideFlags: 0
@@ -39202,6 +39374,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &716870074
 GameObject:
   m_ObjectHideFlags: 0
@@ -40765,6 +40939,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &742832915
 GameObject:
   m_ObjectHideFlags: 0
@@ -41032,6 +41208,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1001 &745829060
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41124,6 +41302,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &750283285
 GameObject:
   m_ObjectHideFlags: 0
@@ -41399,6 +41579,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &755516810 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1972229120959895101, guid: 0af9c9176232f40e899309753e820387, type: 3}
@@ -41416,6 +41598,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &756153850
 GameObject:
   m_ObjectHideFlags: 0
@@ -41545,6 +41729,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &761271331
 GameObject:
   m_ObjectHideFlags: 0
@@ -41887,6 +42073,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &768184896
 GameObject:
   m_ObjectHideFlags: 0
@@ -42016,6 +42204,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &774639279
 GameObject:
   m_ObjectHideFlags: 0
@@ -42725,6 +42915,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &786479091
 GameObject:
   m_ObjectHideFlags: 0
@@ -42854,6 +43046,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &791403104
 GameObject:
   m_ObjectHideFlags: 0
@@ -42983,6 +43177,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &800886845
 GameObject:
   m_ObjectHideFlags: 0
@@ -44296,6 +44492,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &825208969 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4831219189150090363, guid: 0af9c9176232f40e899309753e820387, type: 3}
@@ -44313,6 +44511,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &826024197
 GameObject:
   m_ObjectHideFlags: 0
@@ -45142,6 +45342,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &843383491
 GameObject:
   m_ObjectHideFlags: 0
@@ -45409,6 +45611,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &848351883
 GameObject:
   m_ObjectHideFlags: 0
@@ -45975,6 +46179,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &859586291
 GameObject:
   m_ObjectHideFlags: 0
@@ -46104,6 +46310,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &863537672
 GameObject:
   m_ObjectHideFlags: 0
@@ -47043,6 +47251,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &871814275
 GameObject:
   m_ObjectHideFlags: 0
@@ -47508,6 +47718,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!114 &885352860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47637,6 +47849,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &892460194 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5838918765770445649, guid: 0af9c9176232f40e899309753e820387, type: 3}
@@ -47654,6 +47868,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &892983003
 GameObject:
   m_ObjectHideFlags: 0
@@ -51645,6 +51861,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &911034258 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1801807646703848077, guid: 5151591354fd80f448e91914496d97d1, type: 3}
@@ -51688,6 +51906,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &914892877
 GameObject:
   m_ObjectHideFlags: 0
@@ -51843,6 +52063,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1001 &916522432
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52148,6 +52370,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &919630516
 GameObject:
   m_ObjectHideFlags: 0
@@ -53211,6 +53435,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &934073520
 GameObject:
   m_ObjectHideFlags: 0
@@ -53340,6 +53566,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &938069566 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1801807646703848077, guid: 5151591354fd80f448e91914496d97d1, type: 3}
@@ -53383,6 +53611,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &938363186
 GameObject:
   m_ObjectHideFlags: 0
@@ -53624,6 +53854,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &941041277
 GameObject:
   m_ObjectHideFlags: 0
@@ -54003,6 +54235,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &946560970
 GameObject:
   m_ObjectHideFlags: 0
@@ -54132,6 +54366,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &952829546
 GameObject:
   m_ObjectHideFlags: 0
@@ -56631,6 +56867,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &993861147
 GameObject:
   m_ObjectHideFlags: 0
@@ -56872,6 +57110,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &996109055 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 682433014341895118, guid: 0af9c9176232f40e899309753e820387, type: 3}
@@ -56889,6 +57129,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &996815437
 GameObject:
   m_ObjectHideFlags: 0
@@ -57466,6 +57708,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1003694292
 GameObject:
   m_ObjectHideFlags: 0
@@ -57799,6 +58043,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1013026364
 GameObject:
   m_ObjectHideFlags: 0
@@ -57954,6 +58200,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1016757752
 GameObject:
   m_ObjectHideFlags: 0
@@ -58083,6 +58331,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1018362342
 GameObject:
   m_ObjectHideFlags: 0
@@ -58352,6 +58602,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1022234021 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2621082884352786052, guid: 0af9c9176232f40e899309753e820387, type: 3}
@@ -58369,6 +58621,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1029849344
 GameObject:
   m_ObjectHideFlags: 0
@@ -58610,6 +58864,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1045727738 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8703734963193189998, guid: 0af9c9176232f40e899309753e820387, type: 3}
@@ -58627,6 +58883,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1046056571
 GameObject:
   m_ObjectHideFlags: 0
@@ -59623,6 +59881,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1068886543
 GameObject:
   m_ObjectHideFlags: 0
@@ -59976,6 +60236,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1072547635
 GameObject:
   m_ObjectHideFlags: 0
@@ -60542,6 +60804,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1080810957
 GameObject:
   m_ObjectHideFlags: 0
@@ -60783,6 +61047,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1001 &1082899696
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -61125,6 +61391,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!4 &1086404331 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 379488302671427614, guid: b3d56f258690da94f84ca8e6aa5c779c, type: 3}
@@ -61623,6 +61891,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1094379941
 GameObject:
   m_ObjectHideFlags: 0
@@ -61778,6 +62048,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1095217851
 GameObject:
   m_ObjectHideFlags: 0
@@ -62355,6 +62627,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1100549512
 GameObject:
   m_ObjectHideFlags: 0
@@ -62596,6 +62870,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1109879475
 GameObject:
   m_ObjectHideFlags: 0
@@ -62949,6 +63225,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1112417083
 GameObject:
   m_ObjectHideFlags: 0
@@ -64077,6 +64355,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1137946210
 GameObject:
   m_ObjectHideFlags: 0
@@ -64419,6 +64699,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1147838998
 GameObject:
   m_ObjectHideFlags: 0
@@ -65258,6 +65540,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1157171667 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5140775085833150836, guid: 0af9c9176232f40e899309753e820387, type: 3}
@@ -65275,6 +65559,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1157510377
 GameObject:
   m_ObjectHideFlags: 0
@@ -65654,6 +65940,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1165612258
 GameObject:
   m_ObjectHideFlags: 0
@@ -66033,6 +66321,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1172800259
 GameObject:
   m_ObjectHideFlags: 0
@@ -66636,6 +66926,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1180917903 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4998003228490215514, guid: 0af9c9176232f40e899309753e820387, type: 3}
@@ -66653,6 +66945,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1183112075
 GameObject:
   m_ObjectHideFlags: 0
@@ -67704,6 +67998,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1206799702
 GameObject:
   m_ObjectHideFlags: 0
@@ -70528,6 +70824,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1247448715 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1801807646703848077, guid: 5151591354fd80f448e91914496d97d1, type: 3}
@@ -70571,6 +70869,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1248046566 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4268336513486265023, guid: 0af9c9176232f40e899309753e820387, type: 3}
@@ -70588,6 +70888,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1248147476
 GameObject:
   m_ObjectHideFlags: 0
@@ -72211,6 +72513,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 80
+  spinOnCollect: 0
 --- !u!4 &1278623284 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8905297711851156422, guid: 0af9c9176232f40e899309753e820387, type: 3}
@@ -72345,6 +72649,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1284011965 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1423847555519393632, guid: 0af9c9176232f40e899309753e820387, type: 3}
@@ -72362,6 +72668,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!114 &1284108996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72888,6 +73196,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1292831639
 GameObject:
   m_ObjectHideFlags: 0
@@ -73977,6 +74287,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1001 &1308871729
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -74095,6 +74407,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1311614318
 GameObject:
   m_ObjectHideFlags: 0
@@ -74250,6 +74564,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1312828684
 GameObject:
   m_ObjectHideFlags: 0
@@ -74491,6 +74807,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1322208033
 GameObject:
   m_ObjectHideFlags: 0
@@ -74620,6 +74938,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1331043493
 GameObject:
   m_ObjectHideFlags: 0
@@ -75048,6 +75368,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1336576081 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8470928054515575744, guid: 0af9c9176232f40e899309753e820387, type: 3}
@@ -75065,6 +75387,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1338592471
 GameObject:
   m_ObjectHideFlags: 0
@@ -76173,6 +76497,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1361214454
 GameObject:
   m_ObjectHideFlags: 0
@@ -77169,6 +77495,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1374864960 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1801807646703848077, guid: 5151591354fd80f448e91914496d97d1, type: 3}
@@ -77212,6 +77540,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1380122405
 GameObject:
   m_ObjectHideFlags: 0
@@ -77528,6 +77858,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1394145209
 GameObject:
   m_ObjectHideFlags: 0
@@ -78405,6 +78737,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1426312457 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1801807646703848077, guid: 5151591354fd80f448e91914496d97d1, type: 3}
@@ -78448,6 +78782,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1426410543
 GameObject:
   m_ObjectHideFlags: 0
@@ -78577,6 +78913,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1427058153
 GameObject:
   m_ObjectHideFlags: 0
@@ -78844,6 +79182,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1430083111 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1801807646703848077, guid: 5151591354fd80f448e91914496d97d1, type: 3}
@@ -78887,6 +79227,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1430172293
 GameObject:
   m_ObjectHideFlags: 0
@@ -79016,6 +79358,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1432667231
 GameObject:
   m_ObjectHideFlags: 0
@@ -79283,6 +79627,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1433312216
 GameObject:
   m_ObjectHideFlags: 0
@@ -80084,6 +80430,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1440967560 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6005466415144685972, guid: 0af9c9176232f40e899309753e820387, type: 3}
@@ -80101,6 +80449,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1443407347
 GameObject:
   m_ObjectHideFlags: 0
@@ -80642,6 +80992,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1456932043
 GameObject:
   m_ObjectHideFlags: 0
@@ -81716,6 +82068,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1475690297
 GameObject:
   m_ObjectHideFlags: 0
@@ -82704,6 +83058,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1492077320 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1148547021691356746, guid: 0af9c9176232f40e899309753e820387, type: 3}
@@ -82721,6 +83077,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1493626848
 GameObject:
   m_ObjectHideFlags: 0
@@ -83634,6 +83992,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1502400739
 GameObject:
   m_ObjectHideFlags: 0
@@ -84012,6 +84372,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1510733872
 GameObject:
   m_ObjectHideFlags: 0
@@ -86044,6 +86406,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1548537609
 GameObject:
   m_ObjectHideFlags: 0
@@ -86199,6 +86563,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1001 &1549671125
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -86627,6 +86993,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1558812566
 GameObject:
   m_ObjectHideFlags: 0
@@ -87950,6 +88318,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1590259507
 GameObject:
   m_ObjectHideFlags: 0
@@ -88795,6 +89165,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1600679703
 GameObject:
   m_ObjectHideFlags: 0
@@ -92137,6 +92509,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1664467131
 GameObject:
   m_ObjectHideFlags: 0
@@ -92789,6 +93163,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1679051574
 GameObject:
   m_ObjectHideFlags: 0
@@ -92918,6 +93294,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1679374215
 GameObject:
   m_ObjectHideFlags: 0
@@ -93073,6 +93451,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1001 &1680512409
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -93191,6 +93571,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1682836936 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6025998261637238192, guid: 0af9c9176232f40e899309753e820387, type: 3}
@@ -93208,6 +93590,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1683693572
 GameObject:
   m_ObjectHideFlags: 0
@@ -94073,6 +94457,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1701596058
 GameObject:
   m_ObjectHideFlags: 0
@@ -94314,6 +94700,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1001 &1704562377
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -94518,6 +94906,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1708367392 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1801807646703848077, guid: 5151591354fd80f448e91914496d97d1, type: 3}
@@ -94561,6 +94951,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1709306003
 GameObject:
   m_ObjectHideFlags: 0
@@ -94690,6 +95082,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1709648386
 GameObject:
   m_ObjectHideFlags: 0
@@ -94931,6 +95325,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1717643314
 GameObject:
   m_ObjectHideFlags: 0
@@ -95086,6 +95482,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1718819401
 GameObject:
   m_ObjectHideFlags: 0
@@ -95905,6 +96303,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1725298228
 GameObject:
   m_ObjectHideFlags: 0
@@ -96750,6 +97150,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1741540506
 GameObject:
   m_ObjectHideFlags: 0
@@ -97261,6 +97663,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1746788739
 GameObject:
   m_ObjectHideFlags: 0
@@ -98658,6 +99062,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1769316020
 GameObject:
   m_ObjectHideFlags: 0
@@ -99382,6 +99788,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1788167649
 GameObject:
   m_ObjectHideFlags: 0
@@ -99511,6 +99919,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1001 &1793634372
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -99853,6 +100263,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1795713427
 GameObject:
   m_ObjectHideFlags: 0
@@ -101146,6 +101558,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1811405637 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1801807646703848077, guid: 5151591354fd80f448e91914496d97d1, type: 3}
@@ -101189,6 +101603,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1812608851
 GameObject:
   m_ObjectHideFlags: 0
@@ -101456,6 +101872,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1816919281
 GameObject:
   m_ObjectHideFlags: 0
@@ -101873,6 +102291,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1824546241
 GameObject:
   m_ObjectHideFlags: 0
@@ -101937,6 +102357,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1825591714
 GameObject:
   m_ObjectHideFlags: 0
@@ -102404,6 +102826,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1832244603
 GameObject:
   m_ObjectHideFlags: 0
@@ -102671,6 +103095,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1834482410 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1801807646703848077, guid: 5151591354fd80f448e91914496d97d1, type: 3}
@@ -102714,6 +103140,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1835798653 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4587389305873985913, guid: 0af9c9176232f40e899309753e820387, type: 3}
@@ -102731,6 +103159,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1839118441
 GameObject:
   m_ObjectHideFlags: 0
@@ -102998,6 +103428,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1001 &1843467429
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -103985,6 +104417,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1864492006
 GameObject:
   m_ObjectHideFlags: 0
@@ -104674,6 +105108,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1876164714
 GameObject:
   m_ObjectHideFlags: 0
@@ -105324,6 +105760,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1888181299 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6825402631098353350, guid: 0af9c9176232f40e899309753e820387, type: 3}
@@ -105341,6 +105779,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1001 &1888570303
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -105433,6 +105873,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1890926081 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8084645471398257308, guid: 0af9c9176232f40e899309753e820387, type: 3}
@@ -105450,6 +105892,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1891337706
 GameObject:
   m_ObjectHideFlags: 0
@@ -105915,6 +106359,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1900038069
 GameObject:
   m_ObjectHideFlags: 0
@@ -106619,6 +107065,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1914343889 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1801807646703848077, guid: 5151591354fd80f448e91914496d97d1, type: 3}
@@ -106662,6 +107110,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1915156247
 GameObject:
   m_ObjectHideFlags: 0
@@ -107015,6 +107465,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1923884516
 GameObject:
   m_ObjectHideFlags: 0
@@ -107469,6 +107921,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1935682289
 GameObject:
   m_ObjectHideFlags: 0
@@ -107624,6 +108078,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1937407132
 GameObject:
   m_ObjectHideFlags: 0
@@ -108489,6 +108945,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1953330612
 GameObject:
   m_ObjectHideFlags: 0
@@ -109299,6 +109757,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1966182321
 GameObject:
   m_ObjectHideFlags: 0
@@ -109454,6 +109914,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1967664705
 GameObject:
   m_ObjectHideFlags: 0
@@ -109695,6 +110157,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1974348039
 GameObject:
   m_ObjectHideFlags: 0
@@ -109824,6 +110288,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1976761111
 GameObject:
   m_ObjectHideFlags: 0
@@ -110737,6 +111203,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &1987737440
 GameObject:
   m_ObjectHideFlags: 0
@@ -111509,6 +111977,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1001 &1998104256
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -111851,6 +112321,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1001 &2001941697
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -112193,6 +112665,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &2008191690 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1690362175976290730, guid: 0af9c9176232f40e899309753e820387, type: 3}
@@ -112210,6 +112684,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &2008793518
 GameObject:
   m_ObjectHideFlags: 0
@@ -112552,6 +113028,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &2012729571
 GameObject:
   m_ObjectHideFlags: 0
@@ -112905,6 +113383,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &2018752469
 GameObject:
   m_ObjectHideFlags: 0
@@ -113146,6 +113626,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &2020351569
 GameObject:
   m_ObjectHideFlags: 0
@@ -114182,6 +114664,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &2041970751
 GameObject:
   m_ObjectHideFlags: 0
@@ -115796,6 +116280,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &2072592675 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9097144767968928454, guid: 0af9c9176232f40e899309753e820387, type: 3}
@@ -115813,6 +116299,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &2072997173
 GameObject:
   m_ObjectHideFlags: 0
@@ -116080,6 +116568,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &2078402732
 GameObject:
   m_ObjectHideFlags: 0
@@ -117459,6 +117949,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &2105130456
 GameObject:
   m_ObjectHideFlags: 0
@@ -118484,6 +118976,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &2109993218
 GameObject:
   m_ObjectHideFlags: 0
@@ -119248,6 +119742,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1 &2126712232
 GameObject:
   m_ObjectHideFlags: 0
@@ -120184,6 +120680,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43ba792690dcc4ae595c91b131f0a2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::stars
+  spinSpeed: 180
+  spinOnCollect: 1
 --- !u!1001 &304242962006530717
 PrefabInstance:
   m_ObjectHideFlags: 0

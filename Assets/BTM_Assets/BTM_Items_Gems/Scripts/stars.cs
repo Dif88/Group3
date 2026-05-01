@@ -2,15 +2,33 @@ using UnityEngine;
 
 public class stars : MonoBehaviour
 {
-   
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    private void OnTriggerEnter(Collider other)
+    [Header("Collection Effect")]
+    public float spinSpeed = 180f;        // Optional: spin before collect
+    public bool spinOnCollect = true;
+
+    private bool collected = false;
+
+    void Update()
     {
-        PlayerInventory playerInventory = other.GetComponent<PlayerInventory>();
-        if (playerInventory != null)
+        // Optional: make it spin to look collectible
+        transform.Rotate(Vector3.up, spinSpeed * Time.deltaTime);
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        // Make sure only the player collects it
+        if (other.CompareTag("Player") && !collected)
         {
-            playerInventory.StarsCollected();
-            gameObject.SetActive(false);
+            collected = true;
+            CollectStar();
         }
+    }
+
+    void CollectStar()
+    {
+        // TODO: Add to score, play sound, etc.
+        // AudioSource.PlayClipAtPoint(collectSound, transform.position);
+
+        Destroy(gameObject); // Vanishes on collect
     }
 }
