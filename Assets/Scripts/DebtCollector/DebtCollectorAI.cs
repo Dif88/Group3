@@ -15,9 +15,9 @@ public class DebtCollectorAI : MonoBehaviour
     private Transform player;
 
     // Animator parameter names — match these to your DemonBoss4 controller
-    private static readonly int SpeedParam   = Animator.StringToHash("Speed");
-    private static readonly int AttackParam  = Animator.StringToHash("Attack");
-    private static readonly int IsChasing    = Animator.StringToHash("IsChasing");
+    private static readonly int SpeedParam  = Animator.StringToHash("Speed");
+private static readonly int AttackParam = Animator.StringToHash("attack1");
+private static readonly int IsChasing   = Animator.StringToHash("IsChasing");
 
     private enum State { Idle, Chase, Attack }
     private State currentState = State.Idle;
