@@ -1,117 +1,61 @@
 using UnityEngine;
-using UnityEngine.AI;
+using UnityEngine.AI; // MUST HAVE THIS
 
-public class DebtCollectorAI : MonoBehaviour
+[RequireComponent(typeof(NavMeshAgent))]
+public class DebtCollectorChase : MonoBehaviour
 {
-    [Header("Chase Settings")]
-    public float detectionRange = 15f;
-    public float attackRange = 1.8f;
-    public float chaseSpeed = 3.5f;
-    public float patrolSpeed = 1.5f;
+    public Transform target;
+    public float detectionRadius = 30f; // Give him a big eye-sight
 
-    [Header("References")]
     private NavMeshAgent agent;
-    private Animator animator;
-    private Transform player;
+    private Animator anim;
+    private bool hasDetectedPlayer = false;
 
-    // Animator parameter names — match these to your DemonBoss4 controller
-    private static readonly int SpeedParam  = Animator.StringToHash("Speed");
-private static readonly int AttackParam = Animator.StringToHash("attack1");
-private static readonly int IsChasing   = Animator.StringToHash("IsChasing");
-
-    private enum State { Idle, Chase, Attack }
-    private State currentState = State.Idle;
+    void Awake()
+    {
+        agent = GetComponent<NavMeshAgent>();
+        anim = GetComponentInChildren<Animator>();
+        
+        // Match the high speed you wanted
+        agent.speed = 4f; 
+        agent.acceleration = 5f;
+        agent.angularSpeed = 120f; // Helps him turn corners smoothly
+    }
 
     void Start()
     {
-        agent    = GetComponent<NavMeshAgent>();
-        animator = GetComponent<Animator>();
-        agent.updateRotation = true;
-        agent.updatePosition = true;
-
-        // Find player by tag
-        GameObject playerObj = GameObject.FindWithTag("Player");
-        if (playerObj != null)
-            player = playerObj.transform;
-        else
-            Debug.LogWarning("DebtCollector: No GameObject tagged 'Player' found!");
+        if (target == null)
+        {
+            GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
+            if (playerObj != null) target = playerObj.transform;
+        }
     }
 
     void Update()
-
-    
-
     {
-        if (player == null) return;
+        if (target == null) return;
 
-        float distToPlayer = Vector3.Distance(transform.position, player.position);
+        float dist = Vector3.Distance(transform.position, target.position);
 
-        switch (currentState)
+        if (dist <= detectionRadius) hasDetectedPlayer = true;
         
+        if (hasDetectedPlayer)
         {
-            case State.Idle:
-                HandleIdle(distToPlayer);
-                break;
-            case State.Chase:
-                HandleChase(distToPlayer);
-                break;
-            case State.Attack:
-                HandleAttack(distToPlayer);
-                break;
+            // The magic line: tells the AI to find the path around obstacles
+            agent.SetDestination(target.position);
+
+            if (anim != null)
+            {
+                // If he is still far from the player, keep walking
+                if (agent.remainingDistance > agent.stoppingDistance)
+                {
+                    anim.Play("walk1");
+                }
+                else
+                {
+                    anim.Play("Idle1");
+                }
+            }
         }
-
-        // Drive animator blend tree
-        animator.SetFloat(SpeedParam, agent.velocity.magnitude);
-    }
-
-    void HandleIdle(float dist)
-    {
-        agent.isStopped = true;
-        animator.SetBool(IsChasing, false);
-
-        if (dist <= detectionRange)
-        {
-            currentState = State.Chase;
-        }
-    }
-
-    void HandleChase(float dist)
-    {
-        agent.isStopped = false;
-        agent.speed = chaseSpeed;
-        agent.SetDestination(player.position);
-        animator.SetBool(IsChasing, true);
-
-        if (dist <= attackRange)
-        {
-            currentState = State.Attack;
-        }
-        else if (dist > detectionRange)
-        {
-            currentState = State.Idle; // lost player
-        }
-    }
-
-    void HandleAttack(float dist)
-    {
-        agent.isStopped = true;
-        transform.LookAt(player); // always face player
-
-        animator.SetTrigger(AttackParam);
-
-        if (dist > attackRange)
-        {
-            currentState = State.Chase; // player escaped, resume chase
-        }
-    }
-
-    // Visualize ranges in editor
-    void OnDrawGizmosSelected()
-    {
-        Gizmos.color = Color.yellow;
-        Gizmos.DrawWireSphere(transform.position, detectionRange);
-
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, attackRange);
     }
 }

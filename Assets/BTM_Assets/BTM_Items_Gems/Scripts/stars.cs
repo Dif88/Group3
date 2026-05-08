@@ -4,11 +4,11 @@ public class stars : MonoBehaviour
 {
     private bool collected = false;
 
-    // We removed Update() entirely so it stays perfectly still
+    // We removed the Update() function so it stops rotating and moving up/down.
 
     void OnTriggerEnter(Collider other)
     {
-        // Only collect if the object hitting the star is the Player
+        // Ensure your Player object is tagged "Player" in the Inspector!
         if (other.CompareTag("Player") && !collected)
         {
             collected = true;
@@ -18,8 +18,8 @@ public class stars : MonoBehaviour
 
     void CollectStar()
     {
-        // You can add your score logic here later!
-        Debug.Log("Star Collected!"); 
+        Debug.Log("Star Collected!");
+        // Add score logic here if needed: ScoreManager.instance.AddPoint();
         Destroy(gameObject); 
     }
 }
