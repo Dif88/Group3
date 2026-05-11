@@ -19,7 +19,13 @@ public class stars : MonoBehaviour
     void CollectStar()
     {
         Debug.Log("Star Collected!");
-        // Add score logic here if needed: ScoreManager.instance.AddPoint();
+        
+        // Tell the manager to add a point
+        if (StarManager.instance != null)
+        {
+            StarManager.instance.AddStar();
+        }
+
         Destroy(gameObject); 
     }
 }
