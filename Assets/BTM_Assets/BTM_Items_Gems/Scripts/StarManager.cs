@@ -1,11 +1,14 @@
 using UnityEngine;
-using TMPro; // Required for TextMeshPro
+using TMPro;
 
 public class StarManager : MonoBehaviour
 {
-    public static StarManager instance; // Allows stars to find this easily
+    public static StarManager instance;
 
-    public TextMeshProUGUI scoreText;
+    [Header("UI Reference")]
+    public GameObject scoreText; 
+    
+    [Header("Settings")]
     private int starsCollected = 0;
     public int totalStars = 10;
 
@@ -19,6 +22,7 @@ public class StarManager : MonoBehaviour
         UpdateUI();
     }
 
+    // This is the ONLY 'AddStar' function you should have
     public void AddStar()
     {
         starsCollected++;
@@ -26,13 +30,24 @@ public class StarManager : MonoBehaviour
 
         if (starsCollected >= totalStars)
         {
-            Debug.Log("All stars collected! You win!");
-            // You can trigger a Win Screen here later
+            Debug.Log("Goal reached: All stars collected!");
         }
     }
 
     void UpdateUI()
     {
-        scoreText.text = "Stars: " + starsCollected + " / " + totalStars;
+        if (scoreText == null) return;
+
+        string textToDisplay = "Stars: " + starsCollected + " / " + totalStars;
+        
+        // Supports both TextMeshPro and Legacy Text
+        if (scoreText.GetComponent<TextMeshProUGUI>() != null)
+        {
+            scoreText.GetComponent<TextMeshProUGUI>().text = textToDisplay;
+        }
+        else if (scoreText.GetComponent<UnityEngine.UI.Text>() != null)
+        {
+            scoreText.GetComponent<UnityEngine.UI.Text>().text = textToDisplay;
+        }
     }
 }
